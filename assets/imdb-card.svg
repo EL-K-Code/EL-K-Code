@@ -1,0 +1,29 @@
+<svg width="580" height="220" viewBox="0 0 580 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="580" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#12212A"/>
+      <stop offset="1" stop-color="#173848"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(516 16) rotate(135) scale(250 180)">
+      <stop stop-color="#FACC15" stop-opacity="0.27"/>
+      <stop offset="1" stop-color="#FACC15" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="580" height="220" rx="22" fill="url(#bg)"/>
+  <rect width="580" height="220" rx="22" fill="url(#glow)"/>
+  <rect x="24" y="22" width="146" height="28" rx="14" fill="#173746" stroke="#38BDF8" stroke-opacity="0.7"/>
+  <text x="42" y="41" fill="#E0F2FE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1">DATA SYSTEMS</text>
+  <text x="24" y="86" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">IMDB Data Platform</text>
+  <text x="24" y="116" fill="#BAE6FD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">Reproducible public-data ingestion pipeline</text>
+  <text x="24" y="147" fill="#D6E4F0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13">Python · Parquet · Google Cloud Storage · BigQuery</text>
+  <rect x="24" y="170" width="196" height="28" rx="14" fill="#153343" stroke="#38BDF8" stroke-opacity="0.55"/>
+  <text x="42" y="189" fill="#E0F2FE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">Chunked processing pipeline</text>
+  <rect x="234" y="170" width="232" height="28" rx="14" fill="#153343" stroke="#FACC15" stroke-opacity="0.55"/>
+  <text x="253" y="189" fill="#FEF9C3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">Analytics-ready bronze layer</text>
+  <g opacity="0.9">
+    <ellipse cx="516" cy="69" rx="34" ry="13" fill="#38BDF8" fill-opacity="0.34" stroke="#7DD3FC" stroke-opacity="0.68"/>
+    <path d="M482 69V106C482 113 497 119 516 119C535 119 550 113 550 106V69" stroke="#7DD3FC" stroke-width="2"/>
+    <path d="M482 87C482 94 497 100 516 100C535 100 550 94 550 87" stroke="#FDE68A" stroke-opacity="0.72" stroke-width="2"/>
+  </g>
+  <rect x="1" y="1" width="578" height="218" rx="21" stroke="#D8E9FF" stroke-opacity="0.14" stroke-width="2"/>
+</svg>
